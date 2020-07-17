@@ -1,0 +1,31 @@
+span  {
+    border-style: solid;
+    border: 2px solid;
+    margin: 10px 25px;
+    padding: 10px 25px;
+    border: width 3px;
+   
+     }
+#id1 {
+    background-color: sandybrown;
+    border-style: solid;
+    border: 2px solid;
+    margin: 10px 25px;
+    padding: 10px 25px;
+    border: width 3px;
+}
+#id2 {
+    color: gray;
+    background-color: gray;
+    border-style: solid;
+    border: 2px solid;
+    margin: 10px 25px;
+    padding: 10px 25px;
+    border: 3px;
+    
+}
+span{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 40%;
+}
