@@ -1,0 +1,21 @@
+header{
+  background-image: url("Slika/Lego.jpg");
+    position: relative;
+    height: 100px;
+                                           
+
+}
+img {
+    margin-top: 0px;
+    width: fit-content;
+    height: 100px;
+    position: absolute;
+    opacity: 0.6;
+}
+ div #00 {
+ position: absolute;
+ z-index: 1;
+ bottom: 8px;
+ left: 16px;
+
+   }
