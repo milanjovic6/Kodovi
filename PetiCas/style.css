@@ -1,0 +1,25 @@
+.nav {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top:80%
+}
+.nav ul li a{
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+    float:left ;
+}
+.nav ul {
+    list-style-type: none;
+    padding: 0px;
+    position: fixed;
+    width:200px;
+}
+.nav ul li{
+    text-align: center;
+    background-color: brown;
+    margin: 7px;
+}
+

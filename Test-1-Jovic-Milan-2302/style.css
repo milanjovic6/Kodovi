@@ -1,0 +1,62 @@
+ul{
+ list-style: none;
+ 
+}
+.prva li{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 15px;
+    color: black;
+}
+.prva li:hover{
+    background-color: orange;
+    color: black;
+}
+nav{
+    color: white;
+    padding-left: 10px;
+    margin: 0px;
+}
+h1{
+
+    padding-left: 10px;
+}
+.prva {
+    table-layout: fixed;
+    width: 80%;
+    
+}
+.prva tr{
+    text-align: center;
+}
+.prva th{
+    text-align: center;
+}
+.prva td{
+    width: 185px;
+    height: 185px;
+}
+.prva td img{
+    width: 150px;
+    height: 150px;
+}
+.prva td p {
+    text-align: center;
+    font-size: 12px;
+}
+body{
+    border-left: 20%;
+    margin-left: 10%;
+    
+}
+table{
+    font-size: 16px;
+}
+.qa{
+    color: green;
+}
+.grad{
+    color:orange
+}

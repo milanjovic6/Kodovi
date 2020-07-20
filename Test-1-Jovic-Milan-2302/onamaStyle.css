@@ -1,0 +1,22 @@
+p{
+    display: inline-block;
+}
+p img {
+    width: 70px;
+}
+a{
+    position: absolute;
+}
+.p1{
+    background-color: orange;
+    border: 2px dashed black;
+}
+.p2 {
+    background-color: rgb(97, 148, 21);
+    border: 2px dashed black;
+    text-align: center;
+
+}
+.p3{
+background-color: blueviolet;
+}
