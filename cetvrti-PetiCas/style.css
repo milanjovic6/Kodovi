@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}.nav {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 84%;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    display: block;
+    margin: 1px 0;
+}
+.nav ul {
+    list-style-type: none;
+    padding: 0px;
+    position: fixed;
+    widows: 25%;
+}
+.nav ul li{
+    text-align: center;
+    background-color: brown;
+    height: 30px;
+    width: 100%;
+}
+.nav ul li :hover{
+    background-color: coral;
+}
+
