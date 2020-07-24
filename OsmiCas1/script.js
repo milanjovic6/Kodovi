@@ -149,3 +149,139 @@ else(
 
 console.log("IF-ELSE IF -ELSE ja zavrsen") 
 
+//zadatak broj 6.
+
+let b1 = 5;
+let b2 = 3;
+let b3 = 7;
+
+//pretpostavka
+let najveci = b1;
+
+if (b2>najveci) {
+ najveci = b2;
+    
+}
+if (b3>najveci ) {
+    najveci= b3;
+}
+console.log(`Najveci je ${najveci}`);
+
+// zadatak broj 7
+let brPoena = 87;
+
+if (brPoena<=50)
+{
+    console.log("Nazalost pali ste ispit");
+}
+else if(brPoena ==100 )
+{
+    console.log("Cestitamo dobiliste ocenu 10 ");
+}
+else if ( brPoena>=90)
+{
+   console.log("Cestitamo dobiliste ocenu 9");
+}
+else if ( brPoena>=80)
+{
+    console.log("Cestitamo dobiliste ocenu 8");
+    }
+else if ( brPoena>=70)
+    {
+        console.log("Cestitamo dobiliste ocenu 7");
+            }
+else if ( brPoena>=60)
+{
+    console.log("Cestitamo dobiliste ocenu 6");
+}
+else if ( brPoena>=51)
+{
+    console.log("Cestitamo dobiliste ocenu 6");
+}
+else
+{
+    console.log("Nazalost pali ste ispit");
+
+}
+// zadatak 8.
+// let ddd = new Date();
+// let dd= ddd.getDay();
+// if(dd == 0){
+//     console.log("Nedelja kraj vikenda")
+// }
+// else if(dd == 1){
+//     console.log(" Ponedeljak o nee");
+// }
+// else if(dd == 2){
+//     console.log("Utorak");
+// }
+// else if(dd == 3){
+//     console.log("Sreda jos malo pa vikend");
+// }
+// else if(dd == 4){
+//     console.log("Cetvrtak");
+// }
+// else if(dd == 5){
+//     console.log("Petak pocinje vikend");
+// }
+// else if(dd == 6){
+//     console.log("Subota");
+// }
+// zadatak 9
+// let d9= new Date();
+// let dh9= d9.getHours();
+// console.log(dh9);
+// if(dh9<12){
+//     console.log("dobro jutro");
+// }
+// if(dh9<18){
+//     console.log("dobar dan");
+// }
+// else{
+//     console.log("Dobro vece");
+// }
+//zadatak 10
+let dd1 = 25;
+let m1 = 7;
+let g1 = 2020;
+
+let dd2 =  18;
+let m2 = 8;
+let g2 = 2020;
+
+if (g1<g2) 
+{
+    console.log(`${dd1}.${m1}.${g1}`);
+}
+else if (g2<g1)
+ {
+    console.log(`${dd2}.${m2}.${g2}`);
+}
+else 
+ {
+    if (m1<m2)
+     {
+        console.log(`${dd1}.${m1}.${g1}`);
+    }
+    else if (m2<m1)
+     {
+        console.log(`${dd2}.${m2}.${g2}`);
+    }
+    else 
+    {
+        if (dd1<dd2) {
+            console.log(`${dd1}.${m1}.${g1}`);
+        }
+        else if(dd2<dd1){
+            console.log(`${dd2}.${m2}.${g2}`);
+        }
+        else {
+            console.log("Datumi su isti");
+        }
+    }
+}
+
+
+//zadatak 11
+
+
