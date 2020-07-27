@@ -284,4 +284,125 @@ else
 
 //zadatak 11
 
+//zadatak 12
 
+//zadatak 13
+/*
+2 / 2 = 1 + ost 0
+4 / 2 = 2 + ost 0
+6 / 2 = 3 + ost 0
+ ... 
+ 3 / 2 = 1 + ost 1
+ 5 / 2 = 2 + ost 1
+ 7 / 2 = 3 + ost 1
+*/ 
+
+let broj = 15;
+if(broj%2 == 0){
+    //Broj je paran
+    console.log("Broj je paran");
+}else{
+    //Broj je neparan
+    console.log("Broj je neparan");
+}
+
+//zadatak 14
+
+if(broj%3){
+
+}
+
+//zadatak 18
+
+//prvi nacin
+if (broj == Math.trunc(broj)) {
+    console.log("Ceo broj");
+    
+}else{
+    console.log("Decimalni broj");
+}
+// modulus  1 %
+
+// Number.isInteger();
+
+//Math.floor
+
+//Zadatak 19
+
+// zadatak 20
+
+//zadatak 21
+
+let broj1 = 3 ;
+let broj2 = 7 ;
+let broj3 = 9 ;
+
+
+if (broj1>=broj2 && broj1>=broj3) {
+    
+    console.log("Broj 1 je najveci");
+}
+else if(broj2>=broj1 && broj2>=broj3)
+{
+    console.log("Broj 2 je najveci");
+}
+else
+{
+    console.log("Broj 3 je najveci");
+}
+
+if(broj1 == broj2 && broj2 == broj3){
+ console.log("Sva tri broja s ista");
+}else if(broj1==broj2){
+ console.log("Broj 1 i 2 su isti");
+}else if(broj2==broj3){
+    console.log("Broj 2 i 3 su isti ");
+}else if(broj1==broj3){
+    console.log("Broj 1 i 3 su isti");
+}else{
+console.log("Brojevi su razliciti");
+}
+
+//zadatak 23
+
+let god= 2000;
+if(god%4 == 0 && god%100 != 0 || god%400 == 0){
+    console.log("Prestupna godina");
+}else{
+    console.log("Prosta godina");
+}
+
+
+//zadata vrednost se prevede u minute i sate
+
+let min =169;
+sati = Math.trunc(min/60);
+let minn = min%60;
+console.log(`${sati}:${minn}`);
+
+//zadatak 25
+
+let dan = 0;
+let sat = 14;
+let min = 58;
+
+if (dan == 0 || dan ==6)
+{
+    // od 10-18
+    if (sat>=10 && sat < 18) {
+        console.log("Vikend otvoreno");
+    }
+    else{
+        console.log("Vikend zatvoreno");
+    }
+}
+else
+{
+ //od 9-20
+    if(sat >= 9 && sat < 20){
+        console.log("Radni dan otvoreno");
+    }
+    else{
+        console.log("Radni dan zatvoreno");
+    }
+}
