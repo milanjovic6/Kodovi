@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Mobile */
+[class*="col-"]{
+    width: 100%;
+    padding: 15px;
+}
+
+/*Tablet*/
+@media only screen and (min-width:650px) and (max-width:950px) {
+    [class*="col-"]{
+        float: left;
+        padding: 15px;
+    }
+
+    .col-t-1{
+        width: 8.33%;
+    }
+    
+    .col-t-2{
+        width: 16.66%;
+    }
+    
+    .col-t-3{
+        width: 25%;
+    }
+    
+    .col-t-4{
+        width: 33.33%;
+    }
+    
+    .col-t-5{
+        width: 41.66%;
+    }
+    
+    .col-t-6{
+        width: 50%;
+    }
+    
+    .col-t-7{
+        width: 58.33%;
+    }
+    
+    .col-t-8{
+        width: 66.66%;
+    }
+    
+    .col-t-9{
+        width: 75%;
+    }
+    
+    .col-t-10{
+        width:83.33% ;
+    }
+    
+    .col-t-11{
+        width: 91.66%;
+    }
+    
+    .col-t-12{
+        width: 100%;
+    }
+
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 950px){
+
+    [class*="col-"]{
+        float: left;
+        padding: 0px;
+    }
+    
+    .col-1{
+        width: 8.33%;
+    }
+    
+    .col-2{
+        width: 16.66%;
+    }
+    
+    .col-3{
+        width: 25%;
+    }
+    
+    .col-4{
+        width: 33.33%;
+    }
+    
+    .col-5{
+        width: 41.66%;
+    }
+    
+    .col-6{
+        width: 50%;
+    }
+    
+    .col-7{
+        width: 58.33%;
+    }
+    
+    .col-8{
+        width: 66.66%;
+    }
+    
+    .col-9{
+        width: 75%;
+    }
+    
+    .col-10{
+        width:83.33% ;
+    }
+    
+    .col-11{
+        width: 91.66%;
+    }
+    
+    .col-12{
+        width: 100%;
+    }
+}
+
+header{
+    background-image: url(slike/cvece-header.jpg);
+    text-align: center;
+    color: white;
+    width:100%;
+    height: 100px;
+  
+}
+header p {
+    text-align: center;
+    position: relative;
+}
+nav{
+    padding: 0px;
+}
+nav ul{
+    background-color: fuchsia;
+}
+nav ul li {
+    margin-top:10px;
+    text-align: center;
+    list-style: none;
+    background-color: fuchsia;
+    padding:15px;
+    height:35px;
+    color: white;
+    
+}
+ nav ul li :hover{
+    background-color: rgb(139, 0, 58);
+}
+nav ul li a{
+    display: block;
+}
+.row{
+    width: 100%;
+}
+div img {
+    margin-top: 20px;
+}
