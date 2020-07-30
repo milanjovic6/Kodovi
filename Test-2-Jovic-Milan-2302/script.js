@@ -12,7 +12,7 @@ console.log(`Cena bez popusta je ${cenaBez} dinara.`);
 console.log(`Cena sa popustom je ${cenaSa} dinara.`);
 
 //zadatak 2
-let pocetakRadnogVremena = 9;
+/* let pocetakRadnogVremena = 9;
 let krajRadnogVremena = 17;
 let vreme= new Date();
 let sati = vreme.getHours();
@@ -27,7 +27,7 @@ else(17=<sati){
     console.log("Radno vreme je vec zavrseno.");
     document.getElementById("demo").innerHTML=""
 }
-
+ */
 
 /*zadatak3*/
 let plavi=17;

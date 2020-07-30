@@ -155,5 +155,38 @@ while (i<=n1) {
     }
     i++;
 }
-console.log(summ);
+//console.log(summ);
 // zadatak 16
+
+let n = 10;
+let f1=1;
+let f2=0;
+let privremeno;
+while (n>=0) {
+    privremeno=f1;    //ovde stavljamo 1
+    f1=f1+f2;         //na prvoj iteraciji mu dodajemo f2=0
+    f2=privremeno;    // privremeno postaje 1
+    n--;               // n se smanji i opet sve ovo sa drugim brojem
+    console.log(`${f2}`);
+}
+console.log(` Zadnji clan Fibonacijevog niza je ${f2}`)
+//zadatak 17
+n=7;
+let div =document.getElementById(`parent`);
+let tekst ="Bla bla bla";
+i=1;
+while (i<=n) {
+    if(i%3 == 1){ //Paragrafi 1.4.7.10
+        div.innerHTML += `<p style='color:blue'> ${tekst}</p>`;
+    }
+    else if(i%3 == 2) // 2.5.8.11
+    {
+        div.innerHTML += `<p style='color:red' >${tekst}</p>`;
+
+    } else // 3.6.9.12
+    {
+        div.innerHTML += `<p style='color:green'> ${tekst}</p>`;
+
+    }
+    i++;
+}
